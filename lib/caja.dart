@@ -1,9 +1,11 @@
+import 'package:app_udg/columns.dart';
+
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class Caja extends StatelessWidget {
   Color color;
-  int numero;
+  Text numero;
   double ancho;
 
   Caja(this.color, this.numero, this.ancho);

@@ -12,9 +12,11 @@ class PantallaEjemplos extends StatelessWidget {
         title: 'LDSW 3.4. Utilización de widgets',
         home: Scaffold(
             body: Container(
-          width: double.infinity,
-          color: Colors.black,
-          child: EjemploColumn(),
-        )));
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/fondo.jpg'), fit: BoxFit.cover),
+                ),
+                width: double.infinity,
+                child: EjemploColumn())));
   }
 }

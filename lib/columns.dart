@@ -8,11 +8,9 @@ class EjemploColumn extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        Caja(Colors.red, 1, 100.0),
-        Caja(Colors.green, 2, 100.0),
-        Caja(Colors.blue, 3, 100.0),
-        Caja(Colors.pink, 4, 100.0),
-        Caja(Colors.yellow, 5, 100.0),
+        Caja(Colors.red, Text('Aplicación de prueba udg'), 100.0),
+        Caja(Colors.transparent, Text('Bienvenido a esta aplicación de prueba'),
+            100.0),
       ],
     );
   }
